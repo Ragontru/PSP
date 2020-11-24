@@ -9,6 +9,10 @@ termine de informar si se produjo algún anomalía en la ejecución del hijo.
 
  */
 
-public class Ejecuta {
+public class EjecutaHijo {
 
+	public static void main(String[] args) {
+
+		System.out.println("Hola Mundo");
+	}
 }

@@ -19,6 +19,12 @@ fin (enter)
 
  */
 
-public class Aleatorios {
+public class AleatoriosPadre {
 
+	public static void main(String[] args) {
+		
+		System.out.println(numRandom());
+		
+	}
+	
 }

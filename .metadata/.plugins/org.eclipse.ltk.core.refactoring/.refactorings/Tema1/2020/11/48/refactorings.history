@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;escaner&apos; in &apos;ejemplos.ComBidir.main(...)&apos; to &apos;teclado&apos;&#x0D;&#x0A;- Original project: &apos;Tema1&apos;&#x0D;&#x0A;- Original element: &apos;ejemplos.ComBidir.main(String[]).escaner&apos;&#x0D;&#x0A;- Renamed element: &apos;escaner&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;escaner&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ejemplos{ComBidir.java[ComBidir~main~\[QString;@escaner!286!326!294!300!QScanner;!0!false" name="teclado" references="true" stamp="1606244293671" version="1.0"/>
+</session>

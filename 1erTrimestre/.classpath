@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Reserva-paintball/src"/>
+	<classpathentry kind="src" path="Tema1/src"/>
+	<classpathentry kind="src" path="Tema2/Ejercicios"/>
+	<classpathentry kind="output" path="Reserva-paintball/bin"/>
+</classpath>

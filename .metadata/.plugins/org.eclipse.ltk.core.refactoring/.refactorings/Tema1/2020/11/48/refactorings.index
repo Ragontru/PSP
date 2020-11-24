@@ -1,1 +1,7 @@
-1606244293671	Rename local variable 'escaner'
+1606244846967	Rename package 'ejemplos'
+1606244853582	Rename source folder 'src'
+1606244869313	Delete element
+1606244901581	Rename package 'ej1'
+1606245002728	Rename type 'CompileRun'
+1606245196062	Delete element
+1606245220842	Rename type 'UnixIterator'

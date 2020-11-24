@@ -1,9 +1,0 @@
-Un proceso puede esperar recibir por su entrada estándar los datos con los que
-operar en un formato específico. Por ejemplo, si el proceso se crea a partir de un ejecutable en
-Unix, la comunicación de datos con el mismo debería producirse en UTF-8. Si los datos de
-entrada no contienen caracteres extraños (saltos de línea, tildes, ñ, etc.), esto no suele ser
-necesario, pero aun así veremos cómo puede hacerse.
-
-Modifica el ejemplo visto para que la comunicación se realice de forma efectiva con un
-ejecutable de Microsoft Windows. Justifica cualquier cambio realizado incluyendo los paquetes
-a utilizar.

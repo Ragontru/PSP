@@ -21,27 +21,27 @@ public class Coche implements Runnable {
 
 	@Override
 	public void run() {
-		
+
 		try {
 			Thread.sleep(rnd.nextInt(500));
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();
 		}
-		
+
 		cogerTurno();
-		
+
 		try {
 			entrarAlParking();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		try {
 			Thread.sleep(rnd.nextInt(1000));
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		salirDelParking();
 	}
 

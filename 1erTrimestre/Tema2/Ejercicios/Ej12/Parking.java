@@ -32,7 +32,6 @@ Parking: [1] [0] [3] [0] [0] [0]
 
 public class Parking {
 
-
 	private int turno;
 	private int siguiente;
 	public int[] plazas;

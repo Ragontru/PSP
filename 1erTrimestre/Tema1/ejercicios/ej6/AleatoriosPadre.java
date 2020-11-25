@@ -1,5 +1,7 @@
 package ej6;
 
+import java.util.Random;
+
 /*
  * Ejercicio 6: Escribe un programa Aleatorios que haga lo siguiente:
 • Crea un proceso hijo que está encargado de generar números aleatorios. Este proceso
@@ -22,9 +24,13 @@ fin (enter)
 public class AleatoriosPadre {
 
 	public static void main(String[] args) {
-		
 		System.out.println(numRandom());
 		
+	}
+
+	private static int numRandom() {
+		Random r = new Random();
+		return r.nextInt(10);
 	}
 	
 }

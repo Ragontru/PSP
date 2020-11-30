@@ -1,0 +1,86 @@
+1. CONCEPTOS BÁSICOS
+	- Programa: Toda información, códigos y datos, almacenada de una aplicación 
+		que resuelve una necesidad concreta.
+	- Proceso: Se puede definir como programa en ejecución. Además incluye todo 
+		lo necesario para la ejecución.
+		+ Contador del programa: algo que indique por dónde se está ejecutando.
+		+ Imagen de memoria: espacio de memoria que el proceso está utilizando.
+		+ Estado del procesador: el valor de los registros del procesador sobre 
+			los cuales se está ejecutando.
+		
+		Los procesos son entidades independientes, aunque ejecuten el mismo 
+		programa. De tal forma, pueden coexistir dos procesos que ejecuten el 
+		mismo programa, pero con diferentes datos (con distintas imágenes de 
+		memoria) y en distintos momentos de su ejecución (con diferentes 
+		contadores de programa).
+		
+	- Ejecutable: un fichero contiene la información necesaria para poner el 
+	programa en ejecución como un proceso.
+	- Sistema operativo: hace de intermediario entre el usuario 
+	y las aplicaciones y el hardware. Entre sus objetivos:
+		+ Ejecutar los programas de usuario. Crear los procesos a partir de 
+		los ejecutables y lo gestionan.
+		+ Hacer que el computador sea cómodo de usar. Hace de interfaz entre 
+		el usuario y los recursos del ordenador.
+		+ Utilizar los recursos del computador de forma eficiente. Repartir 
+		los recursos en función de sus políticas a aplicar.
+	- Demonio: roceso controlado por el sistema sin ninguna intermediación del
+	usuario, servicio básico para el resto de los procesos
+	
+	
+	
+2. PROGRAMACIÓN CONCURRENTE
+Permite realizar multiples tareas al mismo tiempo. Se pueden ejecutar en:
+
+	- Un única procesador (multiprogramación) = programación concurrente
+	El sistema operativo se encarga de cambiar el proceso en ejecución después 
+	de un período corto de tiempo. No mejora el tiempo de ejecución global, 
+	parece que se ejecutan a la vez. 
+	- Varios núcleos en un mismo procesador (multitarea) = programación paralela
+	 Cada núcleo ejecuta una instrucción diferente al mismo tiempo, compartiendo 
+	 memoria facilitando la coordinación. Mejora el rendimiento de un programa 
+	 si se realizó con 'tareas' o 'hilos'.
+	- Varios ordenadores en red = programación distribuida
+	Cada ordenador tendrá sus procesadores y su memoria, permitiendo elevadas 
+	mejoras de rendimiento. Debido a la propia memoria resulta imposible la 
+	comunicación entre procesos.
+
+	
+	
+3. FUNCIONAMIENTO BÁSICO DEL S.O.
+- Kernel: parte central de funcionalidad básica, gestiona los recursos 
+	permitiendo su uso a través de llamadas al sistema	
+	+ Interrupción: suspensión temporal de un proceso para ejecutar una rutina
+	+ Llamada: interfaz que proporciona el Kernel para que los programas 
+		del usuario puedan hacer uso de forma segura del sistema
+	+ Modo dual: cacterística del hardware que protege al S.O.
+		* Modo usuario (1): ejecución de programas
+		* Modo kernel/supervisor/privilegiado (0): para instrucciones delicadas
+		
+
+
+4. PROCESOS 
+4.1 Estados de un proceso
+	- Nuevo: el proceso está siendo creado a partir de un fichero ejecutable
+	- Listo: el proceso no se encuentra en ejecución pero está preparado para 
+		hacerlo, falta asignarle un procesador
+	- En ejecución: el proceso se está ejecutando
+	- Bloqueado: el proceso está esperando que ocurra algún suceso (E/S, sincronización ...)-
+		Cuando se desbloquea no vuelve a ejecución, sino que espera una nueva planificación
+	- Terminado: el proceso ha acabado y libera memoria. 
+
+4.2 Colas de procesos
+Uno de los objetivos del sistema operativo es la multiprogramación, es decir, 
+admitir varios procesos en memoria para maximizar el uso del procesador. Esto 
+funciona ya que los procesos se irán intercambiando el uso del procesador para 
+su ejecución de forma concurrente. Para ello, el sistema operativo organiza los 
+procesos en varias colas, migrándolos de unas colas a otras:
+	+ Una cola de procesos que contiene todos los procesos del sistema.
+	+ Una cola de procesos preparados que contiene todos los procesos listos 
+	esperando para ejecutarse.
+	+ Varias colas de dispositivo que contienen los procesos que están a la 
+	espera de alguna operación de E/S
+	
+4.3 Planificación de procesos
+
+4.4 Cambio de contexto

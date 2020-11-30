@@ -1,11 +1,13 @@
 package ej3;
 
-/*Ejercicio 3: Un proceso puede esperar recibir por su entrada estándar los datos con los que
-operar en un formato específico. Por ejemplo, si el proceso se crea a partir de un ejecutable en
-Unix, la comunicación de datos con el mismo debería producirse en UTF-8. Si los datos de
-entrada no contienen caracteres extraños (saltos de línea, tildes, ñ, etc.), esto no suele ser
-necesario, pero aun así veremos cómo puede hacerse.
-*/
+/* Ejercicio 3: Un proceso puede esperar recibir por su entrada estándar los datos con los que
+ * operar en un formato específico. Por ejemplo, si el proceso se crea a partir de un ejecutable en
+ * Unix, la comunicación de datos con el mismo debería producirse en UTF-8. Si los datos de
+ * entrada no contienen caracteres extraños (saltos de línea, tildes, ñ, etc.), esto no suele ser
+ * necesario, pero aun así veremos cómo puede hacerse.
+ * 
+ *** Ejecuta jars ***
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,6 +34,7 @@ public class UnixIteractor {
 
 			// Se convierte al formato de UTF-8 al de un String de Java
 			BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+			// BufferedReader br = new BufferedReader(new InputStreamReader(is, "850"));
 
 			System.out.println("La salida del proceso hijo" + Arrays.toString(command) + ":");
 

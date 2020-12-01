@@ -28,19 +28,19 @@ public class Persona implements Runnable {
 
 		try {
 			// Tiempo que pasa una persona pensando una nueva idea
-			Coworking.showMessage("INFO: La persona F" + idPersona + " está pensando en una nueva idea");
+			Coworking.showMessage("("+idPersona+".1) La persona F" + idPersona + " está pensando en una nueva idea");
 			Thread.sleep(r.nextInt(1000));
 
 			Coworking.showMessage("----------------------------------------");
-			Coworking.showMessage("INICIO: Persona F" + idPersona + " cogiendo tarjetas ");
+			Coworking.showMessage("("+idPersona+".2) Persona F" + idPersona + " cogiendo tarjetas ");
 			cogerTarjetas();
 
-			Coworking.showMessage("INTENTO: Persona F" + idPersona + " intentando entrar al pc");
+			Coworking.showMessage("("+idPersona+".3) Persona F" + idPersona + " intentando entrar al pc");
 			pc.usandoPc(idPersona);
 			Thread.sleep(r.nextInt(500));
 
 			this.pc.saliendoPc(idPersona);
-			Coworking.showMessage("FIN: La persona F" + idPersona + " soltando las tarjetas");
+			Coworking.showMessage("("+idPersona+".6) La persona F" + idPersona + " soltando las tarjetas");
 			this.soltarTarjetas();
 
 		} catch (InterruptedException e) {

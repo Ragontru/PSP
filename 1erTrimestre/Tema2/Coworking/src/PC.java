@@ -18,7 +18,7 @@ public class PC {
 			while (this.estado) {
 				this.wait();
 			}
-			Coworking.showMessage("USANDO: La persona F" + idPersona + " está usando el PC");
+			Coworking.showMessage("("+idPersona+".4) La persona F" + idPersona + " está usando el PC");
 			this.setEstado(true);
 		}
 	}
@@ -28,7 +28,7 @@ public class PC {
 
 		synchronized (this) {
 			this.setEstado(false);
-			Coworking.showMessage("DEJA: La persona F" + idPersona + " ha dejado de usar el PC");
+			Coworking.showMessage("("+idPersona+".5) La persona F" + idPersona + " ha dejado de usar el PC");
 			this.notifyAll();
 		}
 	}

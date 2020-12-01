@@ -1,7 +1,5 @@
 package src;
 
-import java.util.ArrayList;
-
 /*
  * Cinco personas (F0, F1, F2, F3 y F4) comparten un espacio de coworking en el que 
  * pasan gran parte de su día trabajando en sus proyectos profesionales. Comparten 
@@ -28,25 +26,29 @@ import java.util.ArrayList;
 
 public class Coworking {
 
-	public static void main (String[] args) {
-		
+	public static void main(String[] args) {
+
 		PC pc = new PC();
 		Tarjeta[] tarjetas = new Tarjeta[5];
 		Persona[] personas = new Persona[5];
-		
+
 		// Se crean las tarjetas
 		for (int i = 0; i < tarjetas.length; i++) {
 			tarjetas[i] = new Tarjeta(i);
 		}
-		
-		// Se crean los hilos personas
-		for (int i = 0; i < personas.length; i++) {
-			personas[i].start(); // Se inicializa el hilo
+
+		// Se crean las personas
+		for (int i = 0; i < personas.length-1; i++) {
+			personas[i] = new Persona(i, pc, tarjetas[i], tarjetas[i+1]);
 		}
+		
+		// La última posición debe recibir un trato aparte ya que toma la última y la primera tarjeta
+		personas[4] = new Persona(4,pc,tarjetas[4],tarjetas[0]);
+		
 	}
 
 	public static void showMessage(String mensaje) {
 		System.out.println(mensaje);
 	}
-	
+
 }

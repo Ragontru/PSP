@@ -1,50 +1,58 @@
 package src;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
-
 public class Tarjeta {
 
 	private int idTarjeta;
 	private boolean estado;
 
-	public Tarjeta(int i) {
+	// Constructor
+	public Tarjeta(int idTarjeta) {
 
-		this.setIdTarjeta(idTarjeta);
-		this.setEstado(false);
-
-	}
-
-	private void setEstado(boolean b) {
-		this.estado = estado;
-		
-	}
-
-	private void setIdTarjeta(int idTarjeta) {
 		this.idTarjeta = idTarjeta;
-		
+		this.estado = false;
+
 	}
-	
-	public void cogerTarjeta(Persona pers) throws InterruptedException{
-		
-		int cantidad = 0;
-		
+
+	// Método que una persona coge una tarjeta. Devuelve true si la coge
+	public boolean cogerTarjeta() throws InterruptedException {
+
 		synchronized (this) {
-			while(this.estado) {
+			while (this.estado) {
 				this.wait(200);
-				cantidad++;
-				
-				if (cantidad==2) {
-					if (pers.getTarIzq().equals(this)) {
-						cantidad = 0;
-						pers.getTarDer().soltarTar();
-					} else {
-						cantidad = 0;
-						pers.getTarIzq().soltarTar();
-					}
+				if (this.estado) {
+					return false;
 				}
-				
 			}
+
+			this.setEstado(true);
+			return true;
+
 		}
+	}
+
+	// Método que suelta una tarjeta y lo notifica
+	public void dejarTarjeta() {
+
+		synchronized (this) {
+			this.setEstado(false);
+			this.notifyAll();
+		}
+	}
+
+	public void setEstado(boolean estado) {
+		this.estado = estado;
+	}
+
+	public boolean isEstado() {
+		return estado;
+	}
+
+	public int getIdTarjeta() {
+		return idTarjeta;
+	}
+
+	public void setIdTarjeta() {
+		this.idTarjeta = idTarjeta;
 	}
 
 }

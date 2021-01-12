@@ -1,19 +1,18 @@
-package ejercicios;
+package ej1;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
 public class Emisor {
 
-	static String ruta = ".\\src\\boletín\\ej1\\ArchivoEmisor";
+	// D:\Raquel\Documents\GitHub\PSP\Tema3\ejercicios\ej1\TxtEnviado
+	static String ruta = "D:\\Raquel\\Documents\\GitHub\\PSP\\Tema3\\ejercicios\\ej1\\TxtEnviado";
 
 	public static void main(String[] args) {
 
@@ -26,29 +25,32 @@ public class Emisor {
 
 			Socket clienteSocket = new Socket();
 			InetSocketAddress addr = new InetSocketAddress("localhost", 5555);
-
 			clienteSocket.connect(addr);
 
+			InputStream is = clienteSocket.getInputStream();
 			OutputStream os = clienteSocket.getOutputStream();
+			
 			System.out.println("Enviando mensaje");
-
 			while (br.ready()) {
 				String linea = br.readLine();
 				System.out.println(linea);
 				os.write(linea.getBytes());
-
 			}
-			os.close();
+			
+/*			finally {
+				if (os != null) {
+					os.close();
+					br.close();
+					System.out.println("Mensaje enviado");
+				}
+
+			}*/
+			
 			System.out.println("Mensaje enviado");
 
-		} catch (FileNotFoundException e) {
-
-			e.printStackTrace();
 		} catch (IOException e) {
-
 			e.printStackTrace();
 		}
 
 	}
-
 }

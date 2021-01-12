@@ -1,0 +1,3 @@
+Ejercicio 1: Escribe una pareja de programas (A y B) que transfieran un fichero entre ellos. El
+programa A deberá leer un fichero de texto del disco y enviarlo a B. B recibirá el contenido del
+fichero y lo imprimirá por su salida estándar. Utiliza para ello sockets stream.

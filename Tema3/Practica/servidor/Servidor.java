@@ -39,8 +39,11 @@ public class Servidor {
 					
 					Thread hilo = new Conexion(newSocket, dis, dos, buzon);
 					hilo.start();
-				} catch (Exception e) {
+					
 					newSocket.close();
+					
+				} catch (Exception e) {
+				
 					e.printStackTrace();
 				}
 				

@@ -1,9 +1,10 @@
 package servidor;
 
 import java.io.IOException;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.ArrayList;
 
 import buzon.Buzon;
 import buzon.Correo;
@@ -11,25 +12,26 @@ import buzon.Correo;
 public class Conexion extends Thread {
 
 	private Socket newSocket;
-	private DataInputStream dis;
-	private DataOutputStream dos;
-	private Buzon buzon;
-	private String usuario;
+	private ObjectInputStream ois;
+	private ObjectOutputStream oos;
+	private Correo receptor;
+	private ArrayList<Correo> correo;
+	private String usuario, mensaje;
 	int opcion;
 
 	// Constructor
-	public Conexion(Socket newSocket, DataInputStream dis, DataOutputStream dos, Buzon buzon) {
+	public Conexion(Socket newSocket) {
 		this.newSocket = newSocket;
-		this.dis = dis;
-		this.dos = dos;
-		this.buzon = buzon;
+		this.ois = ois;
+		this.oos = oos;
+		this.correo = new ArrayList<Correo>();
 	}
 	
 	@Override
 	public void run() {
 		try {
-			dos.writeUTF("Usuario: ");
-			this.usuario = this.dis.readUTF();
+			oos.writeUTF("Usuario:");
+			this.usuario = this.ois.readUTF();
 			
 			String[] opciones = {"¿Qué desea hacer?","Mirar buzón","Escribir correo"};
 			Menu menu = new Menu(opciones);
@@ -45,7 +47,7 @@ public class Conexion extends Thread {
 					escribirCorreo(usuario);
 					break;
 				default:
-					dos.writeUTF("Opción inválida");
+					oos.writeUTF("Opción inválida");
 					break;
 				}
 				
@@ -56,43 +58,35 @@ public class Conexion extends Thread {
 		}
 		
 		try {
-			this.dis.close();
-			this.dos.close();
+			this.ois.close();
+			this.oos.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
 	}
 	
+	// 
 	private void escribirCorreo(String usuario) {
-		// TODO Auto-generated method stub
-		
+		Mensaje m2=new Mensaje(this.nombreCliente.getMensaje()+ " ,a quien quieres enviarle un mensaje?");
+		salida.writeObject(m2);
+		Mensaje destinatario=(Mensaje) entrada.readObject();
+		this.destinatario=destinatario.mensaje;	
 	}
 
 	// 
 	public void mirarBuzon() {
-		
-		Correo correo = Buzon.busqueda(usuario);
-		
-		if (correo!=null) {
-			leerCorreo(correo);
-			Buzon.borrarCorreo(correo);
-		}else {
-			try {
-				dos.writeUTF("No hay correo");
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+		try {
+			oos.writeUTF("EN CONSTRUCCIÓN");
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 	
 	// 
 	public void leerCorreo(Correo correo) {
-		String mensaje ="";
-		mensaje="--- Mensaje de: "+correo.getRemitente()+" para "+correo.getMensaje();
-		
 		try {
-			dos.write(mensaje.getBytes());
+			oos.writeUTF("EN CONSTRUCCIÓN");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

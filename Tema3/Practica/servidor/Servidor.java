@@ -15,6 +15,8 @@ public class Servidor {
 
 	public static void main(String[] args) {
 
+		boolean conectado = true;
+
 		try {
 			Buzon buzon = new Buzon();
 
@@ -23,32 +25,23 @@ public class Servidor {
 
 			System.out.println("Realizando el bind");
 			InetSocketAddress addr = new InetSocketAddress("localhost", 5555);
-
-			while (true) {
-				try {
-					// Aceptar conexiones
-					System.out.println("Aceptando conexiones");
-					Socket newSocket = server.accept();
-
-					System.out.println("Conexión recibida");
-					InputStream is = newSocket.getInputStream();
-					DataInputStream dis = new DataInputStream(is);
-					
-					OutputStream os = newSocket.getOutputStream();
-					DataOutputStream dos=new DataOutputStream(os);
-					
-					Thread hilo = new Conexion(newSocket, dis, dos, buzon);
-					hilo.start();
-					
-					newSocket.close();
-					
-				} catch (Exception e) {
-				
-					e.printStackTrace();
-				}
-				
-			}
+			//server.bind(addr);
 			
+			while (conectado) {
+				// Aceptar conexiones
+				System.out.println("Aceptando conexiones");
+				Socket newSocket = server.accept();
+
+				System.out.println("Conexión recibida");
+				//InputStream is = newSocket.getInputStream();
+
+				//OutputStream os = newSocket.getOutputStream();
+
+				Conexion hilo = new Conexion(newSocket);
+				hilo.start();
+
+			}
+
 			System.out.println("Cerrando el socket SERVIDOR");
 			server.close();
 

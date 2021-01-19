@@ -1,15 +1,9 @@
 package buzon;
 
-public class Buzon {
+import java.io.Serializable;
 
-	public static Correo busqueda(String usuario) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class Buzon implements Serializable {
 
-	public static void borrarCorreo(Correo correo) {
-		// TODO Auto-generated method stub
-		
-	}
+// añadir hashmap con array de mensajes
 
 }

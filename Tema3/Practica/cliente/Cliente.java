@@ -24,7 +24,7 @@ public class Cliente {
 			InputStream is = clienteSocket.getInputStream();
 			OutputStream os = clienteSocket.getOutputStream();
 
-			System.out.println("Enviando mensaje");
+			System.out.println("Nombre de usuario: ");
 			String mensaje;
 			Scanner teclado = new Scanner(System.in);
 

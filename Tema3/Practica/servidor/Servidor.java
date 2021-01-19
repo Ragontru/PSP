@@ -25,7 +25,7 @@ public class Servidor {
 
 			System.out.println("Realizando el bind");
 			InetSocketAddress addr = new InetSocketAddress("localhost", 5555);
-			//server.bind(addr);
+			server.bind(addr);
 			
 			while (conectado) {
 				// Aceptar conexiones
@@ -34,7 +34,6 @@ public class Servidor {
 
 				System.out.println("Conexión recibida");
 				//InputStream is = newSocket.getInputStream();
-
 				//OutputStream os = newSocket.getOutputStream();
 
 				Conexion hilo = new Conexion(newSocket);

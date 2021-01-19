@@ -6,7 +6,6 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
 
-import buzon.Buzon;
 import buzon.Correo;
 
 public class Conexion extends Thread {
@@ -68,10 +67,11 @@ public class Conexion extends Thread {
 	
 	// 
 	private void escribirCorreo(String usuario) {
-		Mensaje m2=new Mensaje(this.nombreCliente.getMensaje()+ " ,a quien quieres enviarle un mensaje?");
-		salida.writeObject(m2);
-		Mensaje destinatario=(Mensaje) entrada.readObject();
-		this.destinatario=destinatario.mensaje;	
+		try {
+			oos.writeUTF("EN CONSTRUCCIÓN");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	// 

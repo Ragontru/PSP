@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.7 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2021.02.06 a las 11:41:32 PM CET 
+// Generado el: 2021.02.07 a las 08:26:31 PM CET 
 //
 
 
@@ -37,19 +37,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CocheDetailsRequest }
+     * Create an instance of {@link CocheModeloDetailsRequest }
      * 
      */
-    public CocheDetailsRequest createCocheDetailsRequest() {
-        return new CocheDetailsRequest();
+    public CocheModeloDetailsRequest createCocheModeloDetailsRequest() {
+        return new CocheModeloDetailsRequest();
     }
 
     /**
-     * Create an instance of {@link CocheDetailsResponse }
+     * Create an instance of {@link CocheModeloDetailsResponse }
      * 
      */
-    public CocheDetailsResponse createCocheDetailsResponse() {
-        return new CocheDetailsResponse();
+    public CocheModeloDetailsResponse createCocheModeloDetailsResponse() {
+        return new CocheModeloDetailsResponse();
     }
 
     /**
@@ -58,6 +58,38 @@ public class ObjectFactory {
      */
     public Coche createCoche() {
         return new Coche();
+    }
+
+    /**
+     * Create an instance of {@link CocheMarcaDetailsRequest }
+     * 
+     */
+    public CocheMarcaDetailsRequest createCocheMarcaDetailsRequest() {
+        return new CocheMarcaDetailsRequest();
+    }
+
+    /**
+     * Create an instance of {@link CochePotenciaRequest }
+     * 
+     */
+    public CochePotenciaRequest createCochePotenciaRequest() {
+        return new CochePotenciaRequest();
+    }
+
+    /**
+     * Create an instance of {@link CochePotenciaResponse }
+     * 
+     */
+    public CochePotenciaResponse createCochePotenciaResponse() {
+        return new CochePotenciaResponse();
+    }
+
+    /**
+     * Create an instance of {@link CocheMarcaDetailsResponse }
+     * 
+     */
+    public CocheMarcaDetailsResponse createCocheMarcaDetailsResponse() {
+        return new CocheMarcaDetailsResponse();
     }
 
 }

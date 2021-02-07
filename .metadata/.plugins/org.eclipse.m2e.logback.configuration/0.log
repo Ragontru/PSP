@@ -3050,3 +3050,891 @@ org.xml.sax.SAXParseException: Premature end of file.
 2021-02-06 23:56:56,518 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-02-06 23:56:56,518 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-02-06 23:56:56,518 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:15:15,191 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:15:15,192 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:15:15,192 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:15:15,193 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:15:15,211 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:15:15,213 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:15:15,213 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:15:15,213 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:15:28,244 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:15:28,245 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:15:28,245 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:15:28,246 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:15:28,272 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:15:28,274 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:15:28,275 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:15:28,275 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:17:02,453 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:17:02,456 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:17:02,456 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:17:02,456 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:17:02,473 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:17:02,476 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:17:02,476 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:17:02,476 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:18:21,015 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:18:21,016 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:18:21,016 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:18:21,017 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:18:21,033 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:18:21,035 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:18:21,035 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:18:21,035 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:28:47,557 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:28:47,558 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:28:47,558 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:28:47,558 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:28:47,565 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:28:47,566 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:28:47,566 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:28:47,566 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:31:49,745 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:31:49,746 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:31:49,746 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:31:49,746 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:31:49,760 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:31:49,761 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:31:49,762 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:31:49,762 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:33:15,070 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:33:15,071 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:33:15,071 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:33:15,071 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:33:15,084 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:33:15,086 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:33:15,086 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:33:15,086 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:37:41,388 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:37:41,389 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:37:41,389 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:37:41,389 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:37:41,406 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:37:41,407 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:37:41,408 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:37:41,408 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:40:26,903 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:40:26,904 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:40:26,905 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:40:26,905 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:40:26,920 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:40:26,923 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:40:26,923 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:40:26,923 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 00:40:41,444 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 00:40:41,445 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:40:41,445 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:40:41,445 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:40:41,455 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 00:40:41,457 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 00:40:41,457 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 00:40:41,457 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:47:10,808 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:47:10,809 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:47:10,809 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:47:10,809 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:47:10,814 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:47:10,815 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:47:10,815 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:47:10,815 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:47:15,910 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:47:15,911 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:47:15,911 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:47:15,912 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:47:15,916 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:47:15,917 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:47:15,917 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:47:15,917 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:49:58,617 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:49:58,618 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:49:58,618 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:49:58,618 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:49:58,621 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:49:58,623 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:49:58,623 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:49:58,623 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:50:00,777 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:50:00,778 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:50:00,778 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:50:00,778 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:50:00,787 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:50:00,789 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:50:00,789 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:50:00,790 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:53:55,988 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:53:55,989 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:53:55,989 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:53:55,989 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:53:55,996 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:53:55,998 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:53:55,998 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:53:55,998 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:54:34,002 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:54:34,004 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:54:34,004 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:54:34,004 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:54:34,016 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:54:34,018 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:54:34,018 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:54:34,018 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:55:10,031 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:55:10,032 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:10,032 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:10,032 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:10,043 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:10,045 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:10,045 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:10,045 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:55:52,180 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:55:52,181 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:52,181 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:52,181 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:52,193 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:52,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:52,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:52,195 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:55:53,211 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:55:53,212 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:53,212 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:53,213 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:53,224 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:55:53,226 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:55:53,226 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:55:53,226 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:56:05,928 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:56:05,929 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:56:05,929 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:56:05,930 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:56:05,942 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:56:05,944 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:56:05,944 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:56:05,944 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 01:59:27,585 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 01:59:27,587 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:59:27,587 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:59:27,587 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:59:27,591 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 01:59:27,592 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 01:59:27,592 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 01:59:27,592 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 02:00:30,984 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 02:00:30,988 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 02:37:41,489 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 02:37:41,493 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 13:58:00,702 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 13:58:01,435 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pspro:soap-ws-pspro:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\pom.xml.
+2021-02-07 13:58:04,757 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 13:58:04,785 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 13:58:05,315 [Worker-1: Updating indexes] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-02-07 13:58:39,298 [Worker-1: Updating indexes] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|https://repo.maven.apache.org/maven2 in 33983 ms
+2021-02-07 14:07:23,619 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-07 16:15:18,546 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 16:15:18,555 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 16:43:32,212 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 16:43:32,216 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 16:47:55,851 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 16:47:55,854 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 17:49:59,429 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 17:49:59,433 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 17:50:14,292 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 17:50:14,299 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 17:50:29,441 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 17:50:29,444 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 17:50:32,806 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 17:50:32,810 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 17:53:32,359 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 17:53:32,362 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:04:43,411 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 18:04:43,414 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:04:56,950 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 18:04:56,953 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:07:07,626 [Worker-99: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 18:07:07,627 [Worker-99: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 18:07:10,071 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:07:11,406 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:07:11,406 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:07:11,407 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:07:11,426 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:07:11,431 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:07:11,431 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:07:11,431 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:12:28,888 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:12:28,889 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:12:28,890 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:12:28,890 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:12:28,896 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:12:28,898 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:12:28,898 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:12:28,898 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:18:27,262 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:18:27,264 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:18:27,264 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:18:27,265 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:18:27,268 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:18:27,270 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:18:27,270 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:18:27,270 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:18:29,431 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:18:29,433 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:18:29,433 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:18:29,433 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:18:29,446 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:18:29,448 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:18:29,448 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:18:29,448 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:20:31,601 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:20:31,602 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:20:31,602 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:20:31,602 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:20:31,610 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:20:31,612 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:20:31,612 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:20:31,612 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:25:50,418 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 18:25:50,420 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:27:25,872 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 18:27:25,875 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:27:38,381 [Worker-117: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 18:27:38,381 [Worker-117: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 18:27:40,408 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:27:40,408 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:27:40,408 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:27:40,409 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:27:40,421 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:27:40,425 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:27:40,425 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:27:40,425 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:44:17,734 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:44:17,735 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:44:17,735 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:44:17,736 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:44:17,742 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:44:17,743 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:44:17,743 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:44:17,743 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:45:16,289 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:45:16,290 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:45:16,290 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:45:16,290 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:45:16,302 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:45:16,305 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:45:16,305 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:45:16,305 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:45:33,322 [Worker-128: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 18:45:33,322 [Worker-128: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 18:45:53,459 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 18:45:53,461 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 18:45:59,279 [Worker-126: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 18:45:59,279 [Worker-126: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 18:46:01,401 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:46:01,402 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:01,402 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:01,403 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:01,410 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:01,414 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:01,414 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:01,414 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:46:10,684 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:46:10,685 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:10,685 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:10,685 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:10,688 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:10,689 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:10,689 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:10,689 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:46:20,364 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:46:20,365 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:20,365 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:20,365 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:20,381 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:20,382 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:20,382 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:20,382 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:46:59,320 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:46:59,321 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:59,321 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:59,322 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:59,326 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:46:59,327 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:46:59,327 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:46:59,327 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:52:04,786 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:52:04,787 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:52:04,787 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:52:04,787 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:52:04,798 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:52:04,800 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:52:04,800 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:52:04,800 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 18:52:52,293 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 18:52:52,294 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:52:52,294 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:52:52,294 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:52:52,302 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 18:52:52,304 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 18:52:52,304 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 18:52:52,304 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:02:26,714 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:02:26,715 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:02:26,715 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:02:26,716 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:02:26,733 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:02:26,735 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:02:26,735 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:02:26,735 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:03:38,218 [Worker-133: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 19:03:38,218 [Worker-133: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 19:03:51,300 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:03:51,303 [Worker-137: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:03:59,535 [Worker-137: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 19:03:59,536 [Worker-137: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 19:04:01,700 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:04:01,703 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:04:01,703 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:04:01,703 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:04:01,706 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:04:01,711 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:04:01,711 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:04:01,711 [Worker-139: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:06:51,159 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-02-07 19:06:54,607 [Worker-6: Updating indexes] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|https://repo.maven.apache.org/maven2
+2021-02-07 19:07:28,424 [Worker-6: Updating indexes] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updated index for repository: central|https://repo.maven.apache.org/maven2 in 33817 ms
+2021-02-07 19:09:44,663 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:09:47,159 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica\pom.xml.
+2021-02-07 19:09:49,340 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:09:49,340 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:09:49,358 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:09:49,358 [Worker-10: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:15:51,383 [Worker-25: Launching Executing install in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica
+2021-02-07 19:15:51,384 [Worker-25: Launching Executing install in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -o install
+2021-02-07 19:15:53,700 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:15:53,823 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:15:53,823 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:15:53,825 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:15:53,841 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:15:53,844 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:15:53,844 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:15:53,844 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica\src\test\resources
+2021-02-07 19:21:38,676 [Worker-29: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica
+2021-02-07 19:21:38,676 [Worker-29: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -o generate-sources
+2021-02-07 19:22:53,097 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:22:53,101 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:24:03,999 [Worker-29: Launching Executing install in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica
+2021-02-07 19:24:03,999 [Worker-29: Launching Executing install in D__Raquel_Documents_GitHub_PSP_soap-ws-practica_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -o install
+2021-02-07 19:24:06,535 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:24:06,537 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:24:06,537 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:24:06,537 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:24:06,547 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:24:06,548 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:24:06,548 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:24:06,548 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica\src\test\resources
+2021-02-07 19:25:01,362 [Worker-32: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\soap-ws-practica
+2021-02-07 19:25:01,362 [Worker-32: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2021-02-07 19:39:40,667 [Worker-40: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:39:41,109 [Worker-40: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:39:41,644 [Worker-40: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:39:41,661 [Worker-40: Update Maven projects configuration] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:39:41,918 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:39:41,922 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:39:52,323 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pspro:soap-ws-pspro:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\pom.xml.
+2021-02-07 19:39:52,889 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:39:53,052 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:39:53,053 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:39:53,054 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:39:53,063 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:39:53,069 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:39:53,069 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:39:53,069 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\src\test\resources
+2021-02-07 19:39:53,433 [Worker-40: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pspro:soap-ws-pspro:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\pom.xml.
+2021-02-07 19:39:54,317 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:39:54,461 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:39:54,461 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:39:54,463 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:39:54,463 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:39:54,464 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:39:54,464 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:39:54,465 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\src\test\resources
+2021-02-07 19:41:45,410 [Worker-43: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:45,786 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:45,786 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:45,795 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:45,801 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:46,066 [Worker-43: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-02-07 19:41:46,067 [Worker-43: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:41:46,327 [Worker-43: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:46,893 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:46,893 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:46,894 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:46,895 [Worker-43: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:47,035 [Worker-43: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:41:47,116 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:41:47,349 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:47,704 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:47,704 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:47,704 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:47,705 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:47,873 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:41:47,874 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:41:48,112 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:48,489 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:48,489 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:48,489 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:48,489 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:48,704 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:41:48,705 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:41:48,954 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:49,303 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:49,303 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:49,303 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:49,303 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:49,528 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:41:49,529 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:41:49,746 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:41:50,098 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:41:50,098 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:50,098 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:41:50,098 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:41:50,332 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:41:50,777 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:41:50,777 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:41:50,777 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:41:50,785 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:41:50,786 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:41:50,787 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:41:50,787 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:47:02,931 [Worker-49: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.pspro:soap-ws-pspro:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\pom.xml.
+2021-02-07 19:47:04,211 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:47:04,213 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:47:04,213 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:47:04,213 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:47:04,225 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:47:04,227 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:47:04,227 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:47:04,227 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-pspro\src\test\resources
+2021-02-07 19:49:34,825 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:49:34,826 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:49:34,826 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:49:34,826 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:49:34,831 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:49:34,831 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:49:34,831 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:50:22,469 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:22,469 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:22,469 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:50:22,469 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:50:22,472 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:22,472 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:22,472 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:50:27,029 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:50:27,400 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:27,400 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:27,400 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:50:27,400 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:50:27,401 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:27,401 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:27,401 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:50:27,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:27,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:27,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:50:27,985 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:50:27,988 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:50:27,989 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:50:27,989 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:51:05,917 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:51:06,268 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:51:06,271 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:06,272 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:06,272 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:51:06,272 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:51:06,273 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:06,273 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:06,274 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:51:06,278 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:51:06,514 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:51:06,910 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:51:06,913 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:51:06,913 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:51:06,913 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:51:06,913 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:51:07,132 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:51:07,638 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:51:07,640 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:07,640 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:07,640 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:51:07,641 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:51:07,644 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:07,644 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:07,644 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:51:41,628 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:51:41,631 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:41,631 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:41,632 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:51:41,633 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:51:41,637 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:51:41,637 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:51:41,637 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:52:34,591 [Worker-56: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 19:52:34,591 [Worker-56: Launching New_configuration] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2021-02-07 19:52:51,476 [Worker-52: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 19:52:51,476 [Worker-52: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 19:53:23,510 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:53:23,834 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:53:23,836 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:53:23,837 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:53:37,135 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-07 19:53:37,339 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.practica:soap-ws-practica:0.0.1-SNAPSHOT @ D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\pom.xml.
+2021-02-07 19:53:37,666 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:53:37,669 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/main/java
+2021-02-07 19:53:37,669 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:53:37,670 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /soap-ws-practica/src/main/resources
+2021-02-07 19:53:37,670 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /soap-ws-practica/src/test/java
+2021-02-07 19:53:37,903 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-02-07 19:53:38,287 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:53:38,290 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:53:38,290 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:53:38,290 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:53:38,291 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:53:38,295 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:53:38,295 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:53:38,295 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:55:13,683 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:55:13,685 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:13,685 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:13,686 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:55:13,686 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:55:13,687 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:13,687 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:13,687 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:55:23,693 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:55:23,707 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:55:23,726 [Worker-56: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - file:/D:/Raquel/Documents/GitHub/PSP/soap-ws-practica/src/main/resources/concesionario.xsd[1,39] Premature end of file.
+org.xml.sax.SAXParseException: Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2325)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:575)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:617)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:576)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadGrammar(XMLSchemaLoader.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.validation.XMLSchemaFactory.newSchema(XMLSchemaFactory.java:276)
+	at com.sun.tools.xjc.reader.xmlschema.parser.SchemaConstraintChecker.check(SchemaConstraintChecker.java:109)
+	at com.sun.tools.xjc.ModelLoader.loadXMLSchema(ModelLoader.java:360)
+	at com.sun.tools.xjc.ModelLoader.load(ModelLoader.java:174)
+	at com.sun.tools.xjc.ModelLoader.load(ModelLoader.java:119)
+	at com.sun.tools.xjc.Driver.run(Driver.java:333)
+	at org.codehaus.mojo.jaxb2.AbstractXjcMojo.execute(AbstractXjcMojo.java:316)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:332)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$8(MavenImpl.java:1380)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1379)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:54)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:845)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:228)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:276)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:329)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:332)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:384)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:405)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-02-07 19:55:23,738 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Fallo al analizar un esquema.
+2021-02-07 19:55:23,738 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:23,739 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:23,739 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:55:23,739 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:55:23,742 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:23,742 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:23,742 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:55:28,184 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 19:55:28,187 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 19:55:34,257 [Worker-49: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 19:55:34,257 [Worker-49: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 19:55:36,367 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:55:36,368 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:36,368 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:36,368 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:55:36,372 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:55:36,376 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:55:36,376 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:55:36,376 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:58:34,040 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:58:34,042 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:58:34,042 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:58:34,042 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:58:34,048 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:58:34,050 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:58:34,050 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:58:34,050 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:59:32,948 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:59:32,949 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:59:32,949 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:59:32,950 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:59:32,953 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:59:32,954 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:59:32,955 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:59:32,955 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 19:59:59,571 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 19:59:59,572 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:59:59,572 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:59:59,572 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:59:59,583 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 19:59:59,585 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 19:59:59,585 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 19:59:59,585 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:00:42,467 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:00:42,468 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:00:42,468 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:00:42,469 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:00:42,479 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:00:42,480 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:00:42,480 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:00:42,480 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:00:50,641 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:00:50,642 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:00:50,642 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:00:50,643 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:00:50,654 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:00:50,656 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:00:50,657 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:00:50,657 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:05:17,607 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:05:17,610 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:05:32,094 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:05:32,097 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:07:03,604 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:07:03,608 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:07:22,978 [Worker-58: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 20:07:22,978 [Worker-58: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 20:07:24,965 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:07:24,966 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:07:24,966 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:07:24,967 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:07:24,972 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:07:24,976 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:07:24,976 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:07:24,976 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:07:48,797 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:07:48,801 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:08:08,549 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:08:08,551 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:08:13,519 [Worker-62: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 20:08:13,519 [Worker-62: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 20:08:15,720 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:08:15,722 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:08:15,722 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:08:15,722 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:08:15,726 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:08:15,729 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:08:15,729 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:08:15,729 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:10:49,130 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:10:49,131 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:10:49,131 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:10:49,132 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:10:49,135 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:10:49,136 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:10:49,136 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:10:49,136 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:10:51,158 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:10:51,159 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:10:51,159 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:10:51,159 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:10:51,172 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:10:51,174 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:10:51,174 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:10:51,174 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:10:54,511 [Worker-65: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 20:10:54,511 [Worker-65: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 20:14:05,664 [Worker-70: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:14:05,672 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:14:05,676 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:26:06,221 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:26:06,228 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:26:06,231 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:26:19,593 [Worker-75: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:26:19,600 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating source...
+2021-02-07 20:26:19,602 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Analizando un esquema...
+2021-02-07 20:26:29,414 [Worker-76: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 20:26:29,414 [Worker-76: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 20:26:31,308 [Worker-72: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:26:31,315 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:26:31,316 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:26:31,316 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:26:31,316 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:26:31,320 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:26:31,324 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:26:31,324 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:26:31,324 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:28:10,376 [Worker-54: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:28:10,384 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:28:10,385 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:28:10,385 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:28:10,385 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:28:10,388 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:28:10,389 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:28:10,389 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:28:10,389 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:29:31,581 [Worker-75: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:29:31,588 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:29:31,589 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:29:31,589 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:29:31,589 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:29:31,600 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:29:31,602 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:29:31,602 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:29:31,602 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:30:27,172 [Worker-76: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:30:27,178 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:30:27,179 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:30:27,179 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:30:27,179 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:30:27,191 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:30:27,192 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:30:27,192 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:30:27,192 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:31:07,331 [Worker-74: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:31:07,337 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:31:07,338 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:31:07,338 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:31:07,338 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:31:07,341 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:31:07,342 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:31:07,342 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:31:07,342 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:32:20,712 [Worker-54: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:32:20,719 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:32:20,720 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:32:20,720 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:32:20,720 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:32:20,724 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:32:20,725 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:32:20,725 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:32:20,725 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:32:25,587 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:32:25,595 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:32:25,596 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:32:25,596 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:32:25,596 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:32:25,598 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:32:25,599 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:32:25,599 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:32:25,599 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:33:29,554 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:33:29,560 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:33:29,561 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:29,561 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:29,561 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:29,565 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:29,566 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:29,566 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:29,566 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:33:48,994 [Worker-76: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:33:49,000 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:33:49,001 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:49,001 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:49,001 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:49,007 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:49,008 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:49,009 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:49,009 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:33:56,401 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:33:56,407 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:33:56,407 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:56,408 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:56,408 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:56,415 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:33:56,417 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:33:56,417 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:33:56,417 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:34:59,525 [Worker-74: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:34:59,532 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:34:59,532 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:34:59,532 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:34:59,533 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:34:59,540 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:34:59,542 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:34:59,542 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:34:59,542 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:36:23,653 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:36:23,659 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:36:23,660 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:36:23,660 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:36:23,660 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:36:23,668 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:36:23,669 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:36:23,670 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:36:23,670 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:38:29,036 [Worker-76: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:38:29,043 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:38:29,044 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:38:29,044 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:38:29,044 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:38:29,048 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:38:29,049 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:38:29,049 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:38:29,049 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:44:34,621 [Worker-79: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:44:34,627 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:44:34,628 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:44:34,628 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:44:34,628 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:44:34,637 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:44:34,639 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:44:34,639 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:44:34,639 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:44:39,806 [Worker-81: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:44:39,813 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:44:39,814 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:44:39,814 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:44:39,814 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:44:39,824 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:44:39,825 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:44:39,825 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:44:39,825 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources
+2021-02-07 20:44:48,333 [Worker-73: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Raquel\Documents\GitHub\PSP\soap-ws-practica
+2021-02-07 20:44:48,333 [Worker-73: Launching Executing generate-sources in D__Raquel_Documents_GitHub_PSP_soap-ws-practica] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B -o generate-sources
+2021-02-07 20:48:29,549 [Worker-81: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2021-02-07 20:48:29,555 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping source generation.
+2021-02-07 20:48:29,556 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:48:29,556 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:48:29,557 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:48:29,569 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-07 20:48:29,571 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-02-07 20:48:29,571 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-02-07 20:48:29,571 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Raquel\Documents\GitHub\PSP\soap-ws-practica\src\test\resources

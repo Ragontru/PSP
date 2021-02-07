@@ -11,22 +11,21 @@ package com.practica.xml.concesionario;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para Coche complex type.
+ * <p>Clase Java para anonymous complex type.
  * 
  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
- * &lt;complexType name="Coche">
+ * &lt;complexType>
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="marca" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="modelo" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="potencia" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,42 +35,14 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "Coche", propOrder = {
-    "marca",
-    "modelo",
-    "potencia"
+@XmlType(name = "", propOrder = {
+    "modelo"
 })
-public class Coche {
+@XmlRootElement(name = "CochePotenciaRequest")
+public class CochePotenciaRequest {
 
-    @XmlElement(required = true)
-    protected String marca;
     @XmlElement(required = true)
     protected String modelo;
-    protected int potencia;
-
-    /**
-     * Obtiene el valor de la propiedad marca.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMarca() {
-        return marca;
-    }
-
-    /**
-     * Define el valor de la propiedad marca.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMarca(String value) {
-        this.marca = value;
-    }
 
     /**
      * Obtiene el valor de la propiedad modelo.
@@ -95,22 +66,6 @@ public class Coche {
      */
     public void setModelo(String value) {
         this.modelo = value;
-    }
-
-    /**
-     * Obtiene el valor de la propiedad potencia.
-     * 
-     */
-    public int getPotencia() {
-        return potencia;
-    }
-
-    /**
-     * Define el valor de la propiedad potencia.
-     * 
-     */
-    public void setPotencia(int value) {
-        this.potencia = value;
     }
 
 }

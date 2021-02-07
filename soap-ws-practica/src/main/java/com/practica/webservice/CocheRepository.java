@@ -39,8 +39,14 @@ public class CocheRepository {
 		coches.put(coche.getModelo(), coche);
 	}
 
-	public Coche findCoche(String modelo) {
-		Assert.notNull(modelo, "The Modelo's name must not be null");
+	public Coche findCocheModelo(String modelo) {
+		Assert.notNull(modelo, "El modelo no puede ser nulo");
 		return coches.get(modelo);
 	}
+
+	public Coche findCocheMarca(String marca) {
+		Assert.notNull(marca, "La marca no puede ser nula");
+		return coches.get(marca);
+	}
+	
 }

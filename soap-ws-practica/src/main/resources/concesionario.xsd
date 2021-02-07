@@ -3,7 +3,8 @@
 	targetNamespace="http://www.practica.com/xml/concesionario"
 	elementFormDefault="qualified">
 
-	<xs:element name="CocheDetailsRequest">
+<!-- Servicio 1: Devuelve los datos de un coche introduciendo un modelo -->
+	<xs:element name="CocheModeloDetailsRequest">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="modelo" type="xs:string" />
@@ -11,7 +12,7 @@
 		</xs:complexType>
 	</xs:element>
 
-	<xs:element name="CocheDetailsResponse">
+	<xs:element name="CocheModeloDetailsResponse">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="Coche" type="tns:Coche" />
@@ -19,11 +20,45 @@
 		</xs:complexType>
 	</xs:element>
 
+<!-- Servicio 2: Devuelve los datos de un coche introduciendo una marca -->
+	<xs:element name="CocheMarcaDetailsRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="marca" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CocheMarcaDetailsResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Coche" type="tns:Coche" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+<!-- Servicio 3: Devuelve la potencia de un coche introduciendo un modelo -->
+	<xs:element name="CochePotenciaRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="marca" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="CochePotenciaResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="potencia" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
 	<xs:complexType name="Coche">
 		<xs:sequence>
+			<xs:element name="marca" type="xs:string" />
 			<xs:element name="modelo" type="xs:string" />
 			<xs:element name="potencia" type="xs:int" />
-			<xs:element name="marca" type="xs:string" />
 		</xs:sequence>
 	</xs:complexType>
 

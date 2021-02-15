@@ -59,7 +59,7 @@ public class SeccionServiceController {
 		seccionRepo.put(fruteria.getId(), fruteria);
 	}
 
-	// Controladores de los servicios
+	// Controladores de las secciones
 	@DeleteMapping("/secciones/{idSec}")
 	public ResponseEntity<Object> delete(@PathVariable("idSec") String id) {
 		seccionRepo.remove(id);
@@ -129,7 +129,7 @@ public class SeccionServiceController {
 		 * productoRepo.get("7")));
 		 */
 
-		productoRepo.put(producto.getId(), producto);
+		// productoRepo.put(producto.getId(), producto);
 
 		return new ResponseEntity<>("El producto se ha creado correctamente (NO COMPLETO)", HttpStatus.OK);
 	}

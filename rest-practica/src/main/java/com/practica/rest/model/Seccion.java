@@ -80,8 +80,9 @@ public class Seccion {
 		this.productos = productos;
 	}
 
-	@Override
-	public String toString() {
-		return String.format("Seccion [id=%s, nombre=_%s, productos=%s", id, nombreSeccion, productos);
-	}
+	/*
+	 * @Override public String toString() { return
+	 * String.format("Seccion [id=%s, nombre=_%s, productos=%s", id, nombreSeccion,
+	 * productos); }
+	 */
 }

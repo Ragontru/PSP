@@ -22,41 +22,39 @@ import com.practica.rest.model.Seccion;
 public class SeccionServiceController {
 
 	// Servicio de las secciones
-	public static Map<String, Producto> productoRepo = new HashMap<>();
-	static {
-
-		// Servicio de los productos
-		Producto pollo = new Producto("1", "Pollo");
-		Producto cerdo = new Producto("2", "Cerdo");
-		Producto ternera = new Producto("3", "Ternera");
-		productoRepo.put(pollo.getId(), pollo);
-		productoRepo.put(cerdo.getId(), cerdo);
-		productoRepo.put(ternera.getId(), ternera);
-
-		Producto pescado = new Producto("4", "Pescado");
-		Producto marisco = new Producto("5", "Marisco");
-		productoRepo.put(pescado.getId(), pescado);
-		productoRepo.put(marisco.getId(), marisco);
-
-		Producto fruta = new Producto("6", "Fruta");
-		Producto verdura = new Producto("7", "Verdura");
-		productoRepo.put(fruta.getId(), fruta);
-		productoRepo.put(verdura.getId(), verdura);
-	}
-
-	// Servicio de las secciones
 	public static Map<String, Seccion> seccionRepo = new HashMap<>();
 	static {
 
-		Seccion carniceria = new Seccion("1", "Carniceria",
-				Arrays.asList(productoRepo.get("1"), productoRepo.get("2"), productoRepo.get("3")));
-		Seccion pescaderia = new Seccion("2", "Pescaderia",
-				Arrays.asList(productoRepo.get("4"), productoRepo.get("5")));
-		Seccion fruteria = new Seccion("3", "Fruteria", Arrays.asList(productoRepo.get("6"), productoRepo.get("7")));
+		Seccion carniceria = new Seccion("1", "Carniceria");
+		Seccion pescaderia = new Seccion("2", "Pescaderia");
+		Seccion fruteria = new Seccion("3", "Fruteria");
 
 		seccionRepo.put(carniceria.getId(), carniceria);
 		seccionRepo.put(pescaderia.getId(), pescaderia);
 		seccionRepo.put(fruteria.getId(), fruteria);
+	}
+
+	// Servicio de las secciones
+	public static Map<String, Producto> productoRepo = new HashMap<>();
+	static {
+
+		// Servicio de los productos
+		Producto pollo = new Producto("1", "Pollo", seccionRepo.get("carniceria"));
+		Producto cerdo = new Producto("2", "Cerdo", seccionRepo.get("carniceria"));
+		Producto ternera = new Producto("3", "Ternera", seccionRepo.get("carniceria"));
+		productoRepo.put(pollo.getId(), pollo);
+		productoRepo.put(cerdo.getId(), cerdo);
+		productoRepo.put(ternera.getId(), ternera);
+
+		Producto pescado = new Producto("4", "Pescado", seccionRepo.get("pescaderia"));
+		Producto marisco = new Producto("5", "Marisco", seccionRepo.get("pescaderia"));
+		productoRepo.put(pescado.getId(), pescado);
+		productoRepo.put(marisco.getId(), marisco);
+
+		Producto fruta = new Producto("6", "Fruta", seccionRepo.get("fruteria"));
+		Producto verdura = new Producto("7", "Verdura", seccionRepo.get("fruteria"));
+		productoRepo.put(fruta.getId(), fruta);
+		productoRepo.put(verdura.getId(), verdura);
 	}
 
 	// Controladores de las secciones
@@ -94,7 +92,7 @@ public class SeccionServiceController {
 	@DeleteMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> delete(@PathVariable("idSec") String idSec, @PathVariable("idProd") String idProd) {
 
-		if (productoRepo.get(seccionRepo.get(idSec)).getId().equals(idProd)) {
+		if (productoRepo.get(idProd).getSeccion().getId().equals(idSec)) {
 			productoRepo.remove(idProd);
 			return new ResponseEntity<>("El producto ha sido eliminado correctamente", HttpStatus.OK);
 		} else {
@@ -106,7 +104,7 @@ public class SeccionServiceController {
 	@PutMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> updateProducto(@PathVariable("idSec") String idSec,
 			@PathVariable("idProd") String idProd, @RequestBody Producto producto) {
-		if (productoRepo.get(seccionRepo.get(idSec)).getId().equals(idProd)) {
+		if (productoRepo.get(idProd).getSeccion().getId().equals(idSec)) {
 			productoRepo.remove(idProd);
 			producto.setId(idProd);
 			productoRepo.put(idProd, producto);
@@ -118,45 +116,33 @@ public class SeccionServiceController {
 		}
 	}
 
-	// FALTA
 	@PostMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> createProducto(@PathVariable("idSec") String idSec, @RequestBody Producto producto) {
 
-		/*
-		 * Producto verdura = new Producto("6", "Verdura");
-		 * productoRepo.put(fruta.getId(), fruta); Seccion fruteria = new
-		 * Seccion("3","Fruteria", Arrays.asList(productoRepo.get("6"),
-		 * productoRepo.get("7")));
-		 */
-
-		// productoRepo.put(producto.getId(), producto);
+		producto.setSeccion(seccionRepo.get(idSec));
+		productoRepo.put(producto.getId(), producto);
 
 		return new ResponseEntity<>("El producto se ha creado correctamente (NO COMPLETO)", HttpStatus.OK);
 	}
 
-	// FALTA
 	@GetMapping("/secciones/{idSec}/productos")
 	public ResponseEntity<Object> getProductos(@PathVariable("idSec") String idSec) {
 		Map<String, Producto> productosSeccion = new HashMap<>();
-		for (int i = 1; i <= productoRepo.size(); i++) {
-			/*
-			 * if () {
-			 * 
-			 * }
-			 */
+		for (int id = 1; id <= productoRepo.size(); id++) {
+			if (productoRepo.get(String.valueOf(id)).getSeccion().getId().equals(idSec)) {
+				productosSeccion.put(String.valueOf(id), productoRepo.get(String.valueOf(id)));
+			}
+
 		}
-		return new ResponseEntity<>("Los productos pueden ser mostrados (NO COMPLETO)", HttpStatus.OK);
-		// return new ResponseEntity<>(productosSeccion.values(),HttpStatus.OK);
+
+		return new ResponseEntity<>(productosSeccion.values(), HttpStatus.OK);
 	}
 
-	// FALTA
 	@GetMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> getProductoById(@PathVariable("idSec") String idSec,
 			@PathVariable("idProd") String idProd) {
-		if (productoRepo.get(seccionRepo.get(idSec)).getId().equals(idProd)) {
-			// DEVOLVER LA ID DEL PRODUCTO
-			// return new ResponseEntity<>(productoRepo.get)
-			return new ResponseEntity<>("AQUÍ DEBERÍA DEVOLVER EL PRODUCTO", HttpStatus.OK);
+		if (productoRepo.get(idProd).getSeccion().equals(idSec)) {
+			return new ResponseEntity<>(productoRepo.get(idProd), HttpStatus.OK);
 		} else {
 			return new ResponseEntity<>(
 					"El producto no puede ser mostrado porque no se encuentra en la sección indicada",

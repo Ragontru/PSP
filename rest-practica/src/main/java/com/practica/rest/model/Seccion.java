@@ -1,12 +1,9 @@
 package com.practica.rest.model;
 
-import java.util.List;
-
 public class Seccion {
 
 	private String id;
 	private String nombreSeccion;
-	private List<Producto> productos;
 
 	// Constructores
 	public Seccion() {
@@ -16,13 +13,11 @@ public class Seccion {
 	/**
 	 * @param id
 	 * @param nombreSeccion
-	 * @param productos
 	 */
-	public Seccion(String id, String nombreSeccion, List<Producto> productos) {
+	public Seccion(String id, String nombreSeccion) {
 		super();
 		this.id = id;
 		this.nombreSeccion = nombreSeccion;
-		this.productos = productos;
 	}
 
 	// Getters y setters
@@ -62,27 +57,4 @@ public class Seccion {
 		this.nombreSeccion = nombreSeccion;
 	}
 
-	/**
-	 * Devuelve la lista de productos de la sección
-	 * 
-	 * @return the productos
-	 */
-	public List<Producto> getProductos() {
-		return productos;
-	}
-
-	/**
-	 * Establece la lista de productos de la sección
-	 * 
-	 * @param productos the productos to set
-	 */
-	public void setProductos(List<Producto> productos) {
-		this.productos = productos;
-	}
-
-	/*
-	 * @Override public String toString() { return
-	 * String.format("Seccion [id=%s, nombre=_%s, productos=%s", id, nombreSeccion,
-	 * productos); }
-	 */
 }

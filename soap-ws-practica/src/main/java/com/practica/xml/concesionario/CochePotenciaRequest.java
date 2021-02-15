@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.7 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2021.02.07 a las 08:26:31 PM CET 
+// Generado el: 2021.02.09 a las 02:25:13 PM CET 
 //
 
 
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="modelo" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="marca" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "modelo"
+    "marca"
 })
 @XmlRootElement(name = "CochePotenciaRequest")
 public class CochePotenciaRequest {
 
     @XmlElement(required = true)
-    protected String modelo;
+    protected String marca;
 
     /**
-     * Obtiene el valor de la propiedad modelo.
+     * Obtiene el valor de la propiedad marca.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getModelo() {
-        return modelo;
+    public String getMarca() {
+        return marca;
     }
 
     /**
-     * Define el valor de la propiedad modelo.
+     * Define el valor de la propiedad marca.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setModelo(String value) {
-        this.modelo = value;
+    public void setMarca(String value) {
+        this.marca = value;
     }
 
 }

@@ -11,7 +11,7 @@ public class Producto {
 	public Producto() {
 
 	}
-
+	
 	/**
 	 * @param id
 	 * @param nombre

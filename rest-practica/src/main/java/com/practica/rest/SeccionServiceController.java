@@ -39,31 +39,45 @@ public class SeccionServiceController {
 	static {
 
 		// Servicio de los productos
-		Producto pollo = new Producto("1", "Pollo", seccionRepo.get("carniceria"));
-		Producto cerdo = new Producto("2", "Cerdo", seccionRepo.get("carniceria"));
-		Producto ternera = new Producto("3", "Ternera", seccionRepo.get("carniceria"));
+		Producto pollo = new Producto("1", "Pollo", seccionRepo.get("1"));
+		Producto cerdo = new Producto("2", "Cerdo", seccionRepo.get("1"));
+		Producto ternera = new Producto("3", "Ternera", seccionRepo.get("1"));
 		productoRepo.put(pollo.getId(), pollo);
 		productoRepo.put(cerdo.getId(), cerdo);
 		productoRepo.put(ternera.getId(), ternera);
 
-		Producto pescado = new Producto("4", "Pescado", seccionRepo.get("pescaderia"));
-		Producto marisco = new Producto("5", "Marisco", seccionRepo.get("pescaderia"));
+		Producto pescado = new Producto("4", "Pescado", seccionRepo.get("2"));
+		Producto marisco = new Producto("5", "Marisco", seccionRepo.get("2"));
 		productoRepo.put(pescado.getId(), pescado);
 		productoRepo.put(marisco.getId(), marisco);
 
-		Producto fruta = new Producto("6", "Fruta", seccionRepo.get("fruteria"));
-		Producto verdura = new Producto("7", "Verdura", seccionRepo.get("fruteria"));
+		Producto fruta = new Producto("6", "Fruta", seccionRepo.get("3"));
+		Producto verdura = new Producto("7", "Verdura", seccionRepo.get("3"));
 		productoRepo.put(fruta.getId(), fruta);
 		productoRepo.put(verdura.getId(), verdura);
 	}
 
 	// Controladores de las secciones
+
+	/**
+	 * Método que elimina la sección indicada en la dirección
+	 * 
+	 * @param id
+	 * @return Sección eliminada correctamente
+	 */
 	@DeleteMapping("/secciones/{idSec}")
 	public ResponseEntity<Object> delete(@PathVariable("idSec") String id) {
 		seccionRepo.remove(id);
 		return new ResponseEntity<>("La sección ha sido eliminada correctamente", HttpStatus.OK);
 	}
 
+	/**
+	 * Método que modifica los datos de la sección especificada en la dirección
+	 * 
+	 * @param id
+	 * @param seccion
+	 * @return Sección modificada correctamente
+	 */
 	@PutMapping("/secciones/{idSec}")
 	public ResponseEntity<Object> updateSeccion(@PathVariable("idSec") String id, @RequestBody Seccion seccion) {
 		seccionRepo.remove(id);
@@ -72,23 +86,47 @@ public class SeccionServiceController {
 		return new ResponseEntity<>("La sección se ha actualizado correctamente", HttpStatus.OK);
 	}
 
+	/**
+	 * Método que crea una sección nueva
+	 * 
+	 * @param seccion
+	 * @return Sección creada correctamente
+	 */
 	@PostMapping("/secciones")
 	public ResponseEntity<Object> createSeccion(@RequestBody Seccion seccion) {
 		seccionRepo.put(seccion.getId(), seccion);
 		return new ResponseEntity<>("La sección se ha creado correctamente", HttpStatus.CREATED);
 	}
 
+	/**
+	 * Método que devuelve los datos de todas las secciones
+	 * 
+	 * @return Datos de todas las secciones
+	 */
 	@GetMapping("/secciones")
 	public ResponseEntity<Object> getSeccion() {
 		return new ResponseEntity<>(seccionRepo.values(), HttpStatus.OK);
 	}
 
+	/**
+	 * Método que devuelve los datos de la sección seleccionada
+	 * 
+	 * @param id
+	 * @return Datos de una sección específica
+	 */
 	@GetMapping("/secciones/{idSec}")
 	public ResponseEntity<Object> getSeccionById(@PathVariable("idSec") String id) {
 		return new ResponseEntity<>(seccionRepo.get(id), HttpStatus.OK);
 	}
 
 	// Controladores de los productos
+
+	/**
+	 * 
+	 * @param idSec
+	 * @param idProd
+	 * @return Si se puede eliminar o no el producto indicado
+	 */
 	@DeleteMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> delete(@PathVariable("idSec") String idSec, @PathVariable("idProd") String idProd) {
 
@@ -101,6 +139,13 @@ public class SeccionServiceController {
 		}
 	}
 
+	/**
+	 * 
+	 * @param idSec
+	 * @param idProd
+	 * @param producto
+	 * @return
+	 */
 	@PutMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> updateProducto(@PathVariable("idSec") String idSec,
 			@PathVariable("idProd") String idProd, @RequestBody Producto producto) {
@@ -116,32 +161,50 @@ public class SeccionServiceController {
 		}
 	}
 
+	/**
+	 * Método que crea un producto en una sección
+	 * 
+	 * @param idSec
+	 * @param producto
+	 * @return Producto creado correctamente
+	 */
+	// FALLA
 	@PostMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> createProducto(@PathVariable("idSec") String idSec, @RequestBody Producto producto) {
-
 		producto.setSeccion(seccionRepo.get(idSec));
 		productoRepo.put(producto.getId(), producto);
 
-		return new ResponseEntity<>("El producto se ha creado correctamente (NO COMPLETO)", HttpStatus.OK);
+		return new ResponseEntity<>("El producto se ha creado correctamente", HttpStatus.OK);
 	}
 
+	/**
+	 * Método que muestra los datos de todos los productos de una sección
+	 * 
+	 * @param idSec
+	 * @return Datos de todos los productos de una sección
+	 */
 	@GetMapping("/secciones/{idSec}/productos")
 	public ResponseEntity<Object> getProductos(@PathVariable("idSec") String idSec) {
-		Map<String, Producto> productosSeccion = new HashMap<>();
-		for (int id = 1; id <= productoRepo.size(); id++) {
+		Map<String, Producto> productoSeccion = new HashMap<>();
+		for (int id = 1; id < productoRepo.size() + 1; id++) {
 			if (productoRepo.get(String.valueOf(id)).getSeccion().getId().equals(idSec)) {
-				productosSeccion.put(String.valueOf(id), productoRepo.get(String.valueOf(id)));
+				productoSeccion.put(String.valueOf(id), productoRepo.get(String.valueOf(id)));
 			}
-
 		}
-
-		return new ResponseEntity<>(productosSeccion.values(), HttpStatus.OK);
+		return new ResponseEntity<>(productoSeccion.values(), HttpStatus.OK);
 	}
 
+	/**
+	 * Método que muestra los datos de un producto de una sección en particular
+	 * 
+	 * @param idSec
+	 * @param idProd
+	 * @return Datos de un producto específico en una sección en particular 
+	 */
 	@GetMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> getProductoById(@PathVariable("idSec") String idSec,
 			@PathVariable("idProd") String idProd) {
-		if (productoRepo.get(idProd).getSeccion().equals(idSec)) {
+		if (productoRepo.get(idProd).getSeccion().getId().equals(idSec)) {
 			return new ResponseEntity<>(productoRepo.get(idProd), HttpStatus.OK);
 		} else {
 			return new ResponseEntity<>(

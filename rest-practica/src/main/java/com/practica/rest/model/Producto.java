@@ -7,11 +7,10 @@ public class Producto {
 	private Seccion seccion;
 
 	// Constructores
-
 	public Producto() {
 
 	}
-	
+
 	/**
 	 * @param id
 	 * @param nombre

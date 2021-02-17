@@ -1,8 +1,6 @@
 package com.practica.rest;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 import org.springframework.http.HttpStatus;
@@ -22,7 +20,7 @@ import com.practica.rest.model.Seccion;
 public class SeccionServiceController {
 
 	// Servicio de las secciones
-	public static Map<String, Seccion> seccionRepo = new HashMap<>();
+	private static Map<String, Seccion> seccionRepo = new HashMap<>();
 	static {
 
 		Seccion carniceria = new Seccion("1", "Carniceria");
@@ -35,7 +33,7 @@ public class SeccionServiceController {
 	}
 
 	// Servicio de las secciones
-	public static Map<String, Producto> productoRepo = new HashMap<>();
+	private static Map<String, Producto> productoRepo = new HashMap<>();
 	static {
 
 		// Servicio de los productos
@@ -60,29 +58,30 @@ public class SeccionServiceController {
 	// Controladores de las secciones
 
 	/**
-	 * Método que elimina la sección indicada en la dirección
+	 * Método que elimina la sección
 	 * 
 	 * @param id
 	 * @return Sección eliminada correctamente
 	 */
 	@DeleteMapping("/secciones/{idSec}")
-	public ResponseEntity<Object> delete(@PathVariable("idSec") String id) {
-		seccionRepo.remove(id);
+	public ResponseEntity<Object> deleteSeccion(@PathVariable("idSec") String idSec) {
+		seccionRepo.remove(idSec);
 		return new ResponseEntity<>("La sección ha sido eliminada correctamente", HttpStatus.OK);
 	}
 
 	/**
-	 * Método que modifica los datos de la sección especificada en la dirección
+	 * Método que modifica los datos de la sección especificada
 	 * 
 	 * @param id
 	 * @param seccion
 	 * @return Sección modificada correctamente
 	 */
+
 	@PutMapping("/secciones/{idSec}")
-	public ResponseEntity<Object> updateSeccion(@PathVariable("idSec") String id, @RequestBody Seccion seccion) {
-		seccionRepo.remove(id);
-		seccion.setId(id);
-		seccionRepo.put(id, seccion);
+	public ResponseEntity<Object> updateSeccion(@PathVariable("idSec") String idSec, @RequestBody Seccion seccion) {
+		seccionRepo.remove(idSec);
+		seccion.setId(idSec);
+		seccionRepo.put(idSec, seccion);
 		return new ResponseEntity<>("La sección se ha actualizado correctamente", HttpStatus.OK);
 	}
 
@@ -115,8 +114,8 @@ public class SeccionServiceController {
 	 * @return Datos de una sección específica
 	 */
 	@GetMapping("/secciones/{idSec}")
-	public ResponseEntity<Object> getSeccionById(@PathVariable("idSec") String id) {
-		return new ResponseEntity<>(seccionRepo.get(id), HttpStatus.OK);
+	public ResponseEntity<Object> getSeccionById(@PathVariable("idSec") String idSec) {
+		return new ResponseEntity<>(seccionRepo.get(idSec), HttpStatus.OK);
 	}
 
 	// Controladores de los productos
@@ -127,6 +126,7 @@ public class SeccionServiceController {
 	 * @param idProd
 	 * @return Si se puede eliminar o no el producto indicado
 	 */
+	// FALLA ENTERO AL MOSTRAR TRAS ELIMINAR
 	@DeleteMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> delete(@PathVariable("idSec") String idSec, @PathVariable("idProd") String idProd) {
 
@@ -144,8 +144,9 @@ public class SeccionServiceController {
 	 * @param idSec
 	 * @param idProd
 	 * @param producto
-	 * @return
+	 * @return Si se actualiza o no un producto de la sección
 	 */
+	// FALLA ENTERO AL MOSTRAR TRAS ACTUALIZAR
 	@PutMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> updateProducto(@PathVariable("idSec") String idSec,
 			@PathVariable("idProd") String idProd, @RequestBody Producto producto) {
@@ -168,13 +169,12 @@ public class SeccionServiceController {
 	 * @param producto
 	 * @return Producto creado correctamente
 	 */
-	// FALLA
-	@PostMapping("/secciones/{idSec}/productos/{idProd}")
+	// FALLA ENTERO AL MOSTRAR TRAS INSERTAR
+	@PostMapping("/secciones/{idSec}/productos")
 	public ResponseEntity<Object> createProducto(@PathVariable("idSec") String idSec, @RequestBody Producto producto) {
 		producto.setSeccion(seccionRepo.get(idSec));
 		productoRepo.put(producto.getId(), producto);
-
-		return new ResponseEntity<>("El producto se ha creado correctamente", HttpStatus.OK);
+		return new ResponseEntity<>("El producto se ha creado correctamente", HttpStatus.CREATED);
 	}
 
 	/**
@@ -199,7 +199,7 @@ public class SeccionServiceController {
 	 * 
 	 * @param idSec
 	 * @param idProd
-	 * @return Datos de un producto específico en una sección en particular 
+	 * @return Datos de un producto específico en una sección en particular
 	 */
 	@GetMapping("/secciones/{idSec}/productos/{idProd}")
 	public ResponseEntity<Object> getProductoById(@PathVariable("idSec") String idSec,
